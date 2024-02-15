@@ -1,0 +1,102 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+}
+
+.image-small {
+    display: none;
+}
+
+.image-md {
+    width: 100%;
+}
+
+.btns-container {
+    padding: 1.5rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn {
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.btn-spring {
+    background-color: #3a7333;
+}
+
+.btn-summer {
+    background-color: #e0bb00;
+}
+
+.btn-autumn {
+    background-color: #b04400;
+}
+
+.btn-winter {
+    background-color: #0f7cb6;
+}
+
+@media screen and (min-width:800px) {
+    body {
+        background-color: aqua;
+    }
+
+    .image-small {
+        display: none;
+    }
+    
+    .image-md {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    body {
+        background-color: aqua;
+    }
+    
+    .btns-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        margin: 1rem;
+    }
+
+    .image-small {
+        width: 100%;
+        display: block;
+    }
+    
+    .image-md {
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
